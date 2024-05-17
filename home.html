@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Course Management System</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #88a2ab;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #1B1A55; /* Green background */
+            color: white;
+            padding: 40px;
+            margin: 0;
+        }
+
+        .content-wrapper {
+            display: flex; /* Use flexbox for layout */
+            flex: 1; /* Take remaining space */
+        }
+
+        .sidebar {
+            flex: 1; /* Take 1/4 of available space */
+            background-color: #88a2ab;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            flex: 3; /* Take 3/4 of available space */
+            background-color: #1f4076;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-left: 20px; /* Add margin to separate from sidebar */
+        }
+
+        .page-head-line {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #88a2ab;
+            text-align: center; /* Align buttons to the center */
+        }
+
+        hr {
+            border: 1px solid #ddd; /* Light gray border */
+        }
+
+        button {
+            background-color: #1B1A55; /* Orange button */
+            color: white;
+            border: none;
+            padding: 13px 40px; /* Increase padding to make buttons slightly larger */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 30px auto; /* Center buttons */
+            cursor: pointer;
+            border-radius: 10px;
+            display: block; /* Make buttons full width */
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .alert {
+            background-color: #2196F3; /* Blue alert box */
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .alert p {
+            margin: 0;
+        }
+
+        footer {
+            background-color: #1B1A55;
+            color: white;
+            padding: 10px 20px;
+            text-align: left;
+        }
+
+        img {
+            display: block;
+            margin: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.5;
+            margin: 20px;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Online Course Regristration</h1>
+    <div class="content-wrapper">
+        <div class="sidebar">
+            <h4 class="page-head-line">Login to proceed</h4>
+            <form name="admin" method="post">
+                <hr />
+                <button><a href="http://localhost/online-course-registration--master/admin/index.php">Admin</a></button>
+                <button><a href="http://localhost/online-course-registration--master/index.php">Student</a></button>
+            </form>
+            <p>“Access to quality online learning is an important step in helping people future-proof their skills and seek new opportunities for growth and development.” <br> <i>– World Economic Forum</i></p>
+        </div>
+        <div class="main-content">
+            <img src="home1.jpg" alt="Girl in a jacket">
+            <!-- Main content goes here -->
+        </div>
+    </div>
+    <footer>© 2024 Online Course Registration</footer>
+</body>
+</html>
